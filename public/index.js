@@ -1,5 +1,5 @@
 fetch("http://localhost:3001/index.html")
-  .then((response) => response.text()) // or .json() if you're expecting JSON
+  .then((response) => response.text())
   .then((data) => {
     console.log(data);
   })
